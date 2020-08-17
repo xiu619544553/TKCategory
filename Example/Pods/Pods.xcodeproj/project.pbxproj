@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		1D92CB4EB2859D243271F2B79686C848 /* Pods-TKCategory_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36FDF936D1743F1B4E0D7DFE3DFA0067 /* Pods-TKCategory_Tests-dummy.m */; };
-		3757F488736B4D6083F50B85DF35AFEF /* TKCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6829B4B1BAEB730397427E13CEBBFB0 /* TKCategory-dummy.m */; };
+		22274053DAA8D8F9D13E8770BFE8EB84 /* TKCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1290375FD78B4C32A507715BEB10E9EA /* TKCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28F57211CA90D63E4613DD9667A212EB /* UIButton+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 85979D3B6A4C6063AE3C7A0594223A0B /* UIButton+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3652FEA5EB5C2740EB53969EBAFC2B53 /* TKCategory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A380BF692C60334D7E015CB62E2206 /* TKCategory-dummy.m */; };
 		693A642AEDE03923AE98464D2BCF26E4 /* Pods-TKCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68A91C0571DBB0C1036870DEF4B709A7 /* Pods-TKCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6ACC2A55661C8CD1024A261E6F3944BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		6D36DE073D731300881C34CD01868355 /* TKCategory-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CA3B9CF9E03849BF9C3EEEB5E97F2BB /* TKCategory-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFA137927751ABE2E454EE1F5E110497 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBCD592B241CAF20BF615DB78087C2 /* ReplaceMe.m */; };
+		700FAD481150A67D8C622D32B430C8AD /* NSObject+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 4045042D68BD80EE451DDE32772878A8 /* NSObject+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76C5E1A0A44A26DEDD90BEDDF846E953 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7E1C9454D70A6B3DF51E61AAA945DA03 /* UIViewController+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AFBDF990C05DF309FF3E6B5105D4ED6C /* UIViewController+TKAdd.m */; };
+		8C503D21119EDF35EE1214E1E36F5132 /* UIColor+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BCC3D54B904FE019BCCDA902806CED /* UIColor+TKAdd.m */; };
+		93725EFC335DB19A84DD4487692C6AC1 /* UIColor+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A72A4A7AD0810F712B106A5A446464B /* UIColor+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B000C3AD0FC27856A5177B11EF087E76 /* UIViewController+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D6ED646EB821695EDAF78957B72818 /* UIViewController+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8A6E4A71B13C1E838D91EB13EB4471A /* NSObject+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 278CDFE5A780FABCE73B00AA2ADB9837 /* NSObject+TKAdd.m */; };
+		DBE35C67281ADE379F4737838AF3167D /* UIButton+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3D6AF70822E596F2B7247F27870201 /* UIButton+TKAdd.m */; };
 		DF405C5B0EB53E73B0C38084483BD64D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EABFF6BCFC922E074AF9EEBEA7D2B23D /* NSString+TKAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B608E6D1520CE1E4A52FB697E283F2 /* NSString+TKAdd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0E82DADE63B6CF09A8CEE9C749C88E8 /* NSString+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = EB8C22555098534D99816401CC182457 /* NSString+TKAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,38 +36,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		015AF871965FB17A6788B20EA0E866B4 /* TKCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKCategory.debug.xcconfig; sourceTree = "<group>"; };
+		1290375FD78B4C32A507715BEB10E9EA /* TKCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKCategory-umbrella.h"; sourceTree = "<group>"; };
 		12AB14CD89798BFBC7BD87E6E11F111A /* Pods-TKCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1D4586301399621188EF4D7D3317F60D /* Pods-TKCategory_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TKCategory_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1DF855B2E784E646182ED79CE5C4CD3A /* TKCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKCategory.release.xcconfig; sourceTree = "<group>"; };
-		2C38E8ED926C29CF01FAB6E3EE98E49C /* TKCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKCategory.modulemap; sourceTree = "<group>"; };
+		278CDFE5A780FABCE73B00AA2ADB9837 /* NSObject+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TKAdd.m"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36FC377E989E695B20A12D66A76541DB /* Pods-TKCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TKCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		36FDF936D1743F1B4E0D7DFE3DFA0067 /* Pods-TKCategory_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TKCategory_Tests-dummy.m"; sourceTree = "<group>"; };
-		4CA3B9CF9E03849BF9C3EEEB5E97F2BB /* TKCategory-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKCategory-umbrella.h"; sourceTree = "<group>"; };
-		5B2F875AB1A091C039D4839DBC9B2890 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		63FBCD592B241CAF20BF615DB78087C2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TKCategory/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3A72A4A7AD0810F712B106A5A446464B /* UIColor+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+TKAdd.h"; sourceTree = "<group>"; };
+		4045042D68BD80EE451DDE32772878A8 /* NSObject+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+TKAdd.h"; sourceTree = "<group>"; };
+		405704A9F56D64954BEA79EA8D99EE0C /* TKCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKCategory-prefix.pch"; sourceTree = "<group>"; };
+		5BEB5CF0934EF0C0BA1704D008EFB1FB /* TKCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKCategory-Info.plist"; sourceTree = "<group>"; };
+		5F86B50BAD571B931F2FF7534534DA98 /* TKCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68A91C0571DBB0C1036870DEF4B709A7 /* Pods-TKCategory_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TKCategory_Tests-umbrella.h"; sourceTree = "<group>"; };
 		69B059C31BC89E761686DEB4E43F5905 /* Pods-TKCategory_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TKCategory_Tests.modulemap"; sourceTree = "<group>"; };
+		72FEFBA0F1898CE48F3102A8FC3E7EB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		78F8AD90ECB26390D619E14A50A32E1A /* Pods_TKCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TKCategory_Tests.framework; path = "Pods-TKCategory_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83BF7D12413D3C88764E033D3D4A4D93 /* TKCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TKCategory.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79D6ED646EB821695EDAF78957B72818 /* UIViewController+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TKAdd.h"; sourceTree = "<group>"; };
+		85979D3B6A4C6063AE3C7A0594223A0B /* UIButton+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIButton+TKAdd.h"; sourceTree = "<group>"; };
+		86AB2569919F4639CF93EC27ADB3886E /* TKCategory.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TKCategory.modulemap; sourceTree = "<group>"; };
+		926737D5249C8837EE2DD6137FA702E0 /* TKCategory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKCategory.debug.xcconfig; sourceTree = "<group>"; };
+		93BCC3D54B904FE019BCCDA902806CED /* UIColor+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+TKAdd.m"; sourceTree = "<group>"; };
 		9672632D5F61B8C0DC5ED0885626AC78 /* TKCategory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TKCategory.framework; path = TKCategory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E51EB4E5191526AC6933E03BFB40136 /* TKCategory-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TKCategory-Info.plist"; sourceTree = "<group>"; };
-		A6829B4B1BAEB730397427E13CEBBFB0 /* TKCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKCategory-dummy.m"; sourceTree = "<group>"; };
+		A3D300B3600FE29F3181727871A20762 /* TKCategory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TKCategory.release.xcconfig; sourceTree = "<group>"; };
 		AD2C70BB317BD12E44685273BB53AD37 /* Pods-TKCategory_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKCategory_Tests-Info.plist"; sourceTree = "<group>"; };
+		AFBDF990C05DF309FF3E6B5105D4ED6C /* UIViewController+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TKAdd.m"; sourceTree = "<group>"; };
+		CC3D6AF70822E596F2B7247F27870201 /* UIButton+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TKAdd.m"; sourceTree = "<group>"; };
 		CCF058916B4DE36DD75AABC4D8842571 /* Pods-TKCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TKCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0A380BF692C60334D7E015CB62E2206 /* TKCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TKCategory-dummy.m"; sourceTree = "<group>"; };
 		D835443FA4D4175B277D35C2B5F8DF1D /* Pods-TKCategory_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TKCategory_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E806089E63484363358AE1D8356CE74B /* TKCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TKCategory-prefix.pch"; sourceTree = "<group>"; };
-		FBCB81C575BA98234D586002191C53CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		EB8C22555098534D99816401CC182457 /* NSString+TKAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+TKAdd.m"; sourceTree = "<group>"; };
+		F5B608E6D1520CE1E4A52FB697E283F2 /* NSString+TKAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+TKAdd.h"; sourceTree = "<group>"; };
+		F92AF7AC3B9ACCE5E0A4B89F26447A69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A07BB5B20E2AE051DE66605DBCE06D31 /* Frameworks */ = {
+		8D1E428A27FC07F099918EE2CE6FD60C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ACC2A55661C8CD1024A261E6F3944BA /* Foundation.framework in Frameworks */,
+				76C5E1A0A44A26DEDD90BEDDF846E953 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,24 +91,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0770DE48770925BD22CBC4326E34427C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5B2F875AB1A091C039D4839DBC9B2890 /* LICENSE */,
-				FBCB81C575BA98234D586002191C53CA /* README.md */,
-				83BF7D12413D3C88764E033D3D4A4D93 /* TKCategory.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		145B51B9F2620B05BF8804F5E5220B58 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5766EEB44D303BF14440CFFBFBA1BEFA /* TKCategory */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		22A943643F650C674101F8F112010443 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,30 +100,27 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		428CCB02203D9D17ACC48073AC2F6B4D /* Support Files */ = {
+		26246FC05B62F6C0B8DB868FAC3AFAAB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2C38E8ED926C29CF01FAB6E3EE98E49C /* TKCategory.modulemap */,
-				A6829B4B1BAEB730397427E13CEBBFB0 /* TKCategory-dummy.m */,
-				9E51EB4E5191526AC6933E03BFB40136 /* TKCategory-Info.plist */,
-				E806089E63484363358AE1D8356CE74B /* TKCategory-prefix.pch */,
-				4CA3B9CF9E03849BF9C3EEEB5E97F2BB /* TKCategory-umbrella.h */,
-				015AF871965FB17A6788B20EA0E866B4 /* TKCategory.debug.xcconfig */,
-				1DF855B2E784E646182ED79CE5C4CD3A /* TKCategory.release.xcconfig */,
+				8ADDE68C8C707A24DC46E9B1AA19411D /* TKCategory */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		562D9E9C501E2EBFC1E6B842BED9F8CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86AB2569919F4639CF93EC27ADB3886E /* TKCategory.modulemap */,
+				D0A380BF692C60334D7E015CB62E2206 /* TKCategory-dummy.m */,
+				5BEB5CF0934EF0C0BA1704D008EFB1FB /* TKCategory-Info.plist */,
+				405704A9F56D64954BEA79EA8D99EE0C /* TKCategory-prefix.pch */,
+				1290375FD78B4C32A507715BEB10E9EA /* TKCategory-umbrella.h */,
+				926737D5249C8837EE2DD6137FA702E0 /* TKCategory.debug.xcconfig */,
+				A3D300B3600FE29F3181727871A20762 /* TKCategory.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TKCategory";
-			sourceTree = "<group>";
-		};
-		5766EEB44D303BF14440CFFBFBA1BEFA /* TKCategory */ = {
-			isa = PBXGroup;
-			children = (
-				63FBCD592B241CAF20BF615DB78087C2 /* ReplaceMe.m */,
-				0770DE48770925BD22CBC4326E34427C /* Pod */,
-				428CCB02203D9D17ACC48073AC2F6B4D /* Support Files */,
-			);
-			name = TKCategory;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7958BAEC08F03B69FCEB730C2FEFBEED /* Targets Support Files */ = {
@@ -132,6 +129,18 @@
 				A73BF56F60E7815189B46BC78A1F3A4C /* Pods-TKCategory_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8ADDE68C8C707A24DC46E9B1AA19411D /* TKCategory */ = {
+			isa = PBXGroup;
+			children = (
+				BAE9D0FE32A0367E4D3B815D6DA8095A /* Foundation */,
+				E1246FC912CFF1AE5D5E6AC6B5CA7E97 /* Pod */,
+				562D9E9C501E2EBFC1E6B842BED9F8CB /* Support Files */,
+				B1D11F71831D64969B27D7F8871739D2 /* UIKit */,
+			);
+			name = TKCategory;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		A73BF56F60E7815189B46BC78A1F3A4C /* Pods-TKCategory_Tests */ = {
@@ -151,6 +160,32 @@
 			path = "Target Support Files/Pods-TKCategory_Tests";
 			sourceTree = "<group>";
 		};
+		B1D11F71831D64969B27D7F8871739D2 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				85979D3B6A4C6063AE3C7A0594223A0B /* UIButton+TKAdd.h */,
+				CC3D6AF70822E596F2B7247F27870201 /* UIButton+TKAdd.m */,
+				3A72A4A7AD0810F712B106A5A446464B /* UIColor+TKAdd.h */,
+				93BCC3D54B904FE019BCCDA902806CED /* UIColor+TKAdd.m */,
+				79D6ED646EB821695EDAF78957B72818 /* UIViewController+TKAdd.h */,
+				AFBDF990C05DF309FF3E6B5105D4ED6C /* UIViewController+TKAdd.m */,
+			);
+			name = UIKit;
+			path = TKCategory/Classes/Category/UIKit;
+			sourceTree = "<group>";
+		};
+		BAE9D0FE32A0367E4D3B815D6DA8095A /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				4045042D68BD80EE451DDE32772878A8 /* NSObject+TKAdd.h */,
+				278CDFE5A780FABCE73B00AA2ADB9837 /* NSObject+TKAdd.m */,
+				F5B608E6D1520CE1E4A52FB697E283F2 /* NSString+TKAdd.h */,
+				EB8C22555098534D99816401CC182457 /* NSString+TKAdd.m */,
+			);
+			name = Foundation;
+			path = TKCategory/Classes/Category/Foundation;
+			sourceTree = "<group>";
+		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,7 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				145B51B9F2620B05BF8804F5E5220B58 /* Development Pods */,
+				26246FC05B62F6C0B8DB868FAC3AFAAB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				22A943643F650C674101F8F112010443 /* Products */,
 				7958BAEC08F03B69FCEB730C2FEFBEED /* Targets Support Files */,
@@ -178,6 +213,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E1246FC912CFF1AE5D5E6AC6B5CA7E97 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				72FEFBA0F1898CE48F3102A8FC3E7EB5 /* LICENSE */,
+				F92AF7AC3B9ACCE5E0A4B89F26447A69 /* README.md */,
+				5F86B50BAD571B931F2FF7534534DA98 /* TKCategory.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -189,11 +234,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2990F21E7D334DC177EA6F0D451327B /* Headers */ = {
+		9790D78C012FF05B7D44C40E6E7BB4DB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D36DE073D731300881C34CD01868355 /* TKCategory-umbrella.h in Headers */,
+				700FAD481150A67D8C622D32B430C8AD /* NSObject+TKAdd.h in Headers */,
+				EABFF6BCFC922E074AF9EEBEA7D2B23D /* NSString+TKAdd.h in Headers */,
+				22274053DAA8D8F9D13E8770BFE8EB84 /* TKCategory-umbrella.h in Headers */,
+				28F57211CA90D63E4613DD9667A212EB /* UIButton+TKAdd.h in Headers */,
+				93725EFC335DB19A84DD4487692C6AC1 /* UIColor+TKAdd.h in Headers */,
+				B000C3AD0FC27856A5177B11EF087E76 /* UIViewController+TKAdd.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,12 +252,12 @@
 /* Begin PBXNativeTarget section */
 		5621A11B49244F1AEFF2141139EF8B00 /* TKCategory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C720F601AFC8D7E7EE33C90563C4D59B /* Build configuration list for PBXNativeTarget "TKCategory" */;
+			buildConfigurationList = 7BD2165138C3929609B709D514C40DAC /* Build configuration list for PBXNativeTarget "TKCategory" */;
 			buildPhases = (
-				F2990F21E7D334DC177EA6F0D451327B /* Headers */,
-				A8CA8F4AAC1E56A4BC2247098DC089F7 /* Sources */,
-				A07BB5B20E2AE051DE66605DBCE06D31 /* Frameworks */,
-				A62BD2D003828F58336B4A22855D3AA1 /* Resources */,
+				9790D78C012FF05B7D44C40E6E7BB4DB /* Headers */,
+				3FBB4E04BF84EA1F429AB954AA87EBD9 /* Sources */,
+				8D1E428A27FC07F099918EE2CE6FD60C /* Frameworks */,
+				7F56F885AA1D4AEBF9783659D2270084 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -273,7 +323,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A62BD2D003828F58336B4A22855D3AA1 /* Resources */ = {
+		7F56F885AA1D4AEBF9783659D2270084 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -283,12 +333,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A8CA8F4AAC1E56A4BC2247098DC089F7 /* Sources */ = {
+		3FBB4E04BF84EA1F429AB954AA87EBD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFA137927751ABE2E454EE1F5E110497 /* ReplaceMe.m in Sources */,
-				3757F488736B4D6083F50B85DF35AFEF /* TKCategory-dummy.m in Sources */,
+				D8A6E4A71B13C1E838D91EB13EB4471A /* NSObject+TKAdd.m in Sources */,
+				F0E82DADE63B6CF09A8CEE9C749C88E8 /* NSString+TKAdd.m in Sources */,
+				3652FEA5EB5C2740EB53969EBAFC2B53 /* TKCategory-dummy.m in Sources */,
+				DBE35C67281ADE379F4737838AF3167D /* UIButton+TKAdd.m in Sources */,
+				8C503D21119EDF35EE1214E1E36F5132 /* UIColor+TKAdd.m in Sources */,
+				7E1C9454D70A6B3DF51E61AAA945DA03 /* UIViewController+TKAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,9 +399,41 @@
 			};
 			name = Debug;
 		};
-		23101C11EC3DE7DA9E54E1AAE5793E34 /* Debug */ = {
+		0F56A8A074F6CF257A13EFC64BE37B37 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 015AF871965FB17A6788B20EA0E866B4 /* TKCategory.debug.xcconfig */;
+			baseConfigurationReference = A3D300B3600FE29F3181727871A20762 /* TKCategory.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TKCategory/TKCategory-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TKCategory/TKCategory-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TKCategory/TKCategory.modulemap";
+				PRODUCT_MODULE_NAME = TKCategory;
+				PRODUCT_NAME = TKCategory;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6203C292BC09E4FCBA3040C0E5779F04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 926737D5249C8837EE2DD6137FA702E0 /* TKCategory.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -534,38 +620,6 @@
 			};
 			name = Debug;
 		};
-		DF5B304CF7CADC397202673E2C21B067 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1DF855B2E784E646182ED79CE5C4CD3A /* TKCategory.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TKCategory/TKCategory-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TKCategory/TKCategory-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TKCategory/TKCategory.modulemap";
-				PRODUCT_MODULE_NAME = TKCategory;
-				PRODUCT_NAME = TKCategory;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -587,11 +641,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C720F601AFC8D7E7EE33C90563C4D59B /* Build configuration list for PBXNativeTarget "TKCategory" */ = {
+		7BD2165138C3929609B709D514C40DAC /* Build configuration list for PBXNativeTarget "TKCategory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				23101C11EC3DE7DA9E54E1AAE5793E34 /* Debug */,
-				DF5B304CF7CADC397202673E2C21B067 /* Release */,
+				6203C292BC09E4FCBA3040C0E5779F04 /* Debug */,
+				0F56A8A074F6CF257A13EFC64BE37B37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,6 @@
 use_frameworks!
 target 'TKCategory_Tests' do
+  
   pod 'TKCategory', :path => '../'
   
   
