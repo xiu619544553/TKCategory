@@ -1,0 +1,16 @@
+PODS:
+  - TKCategory (0.1.0)
+
+DEPENDENCIES:
+  - TKCategory (from `../`)
+
+EXTERNAL SOURCES:
+  TKCategory:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TKCategory: a83f510161704d725c1dadcab94b5dfb7f4aaacf
+
+PODFILE CHECKSUM: ef213fa7dfb53964bb77385b80d03b094383bbcc
+
+COCOAPODS: 1.9.2

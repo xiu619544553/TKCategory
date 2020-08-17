@@ -1,3 +1,4 @@
+
 # TKCategory
 
 [![CI Status](https://img.shields.io/travis/xiu619544553/TKCategory.svg?style=flat)](https://travis-ci.org/xiu619544553/TKCategory)
@@ -27,3 +28,6 @@ xiu619544553, hanxiuhui@offcn.com
 ## License
 
 TKCategory is available under the MIT license. See the LICENSE file for more info.
+=======
+# TKCategory
+>>>>>>> f2f92c479df7939945a35340f9a10de2e0188c1a
