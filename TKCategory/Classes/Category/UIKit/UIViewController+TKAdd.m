@@ -11,19 +11,5 @@
 
 @implementation UIViewController (TKAdd)
 
-//+ (void)load {
-//    static dispatch_once_t onceToken;
-//    dispatch_once(&onceToken, ^{
-//        tk_swizzleSelector(UIViewController.class, @selector(viewDidLoad), @selector(tk_viewDidLoad));
-//    });
-//}
-//
-//- (void)tk_viewDidLoad {
-//    
-//    kTICK
-//    
-//    [self tk_viewDidLoad];
-//
-//    kTOCK
-//}
+
 @end
