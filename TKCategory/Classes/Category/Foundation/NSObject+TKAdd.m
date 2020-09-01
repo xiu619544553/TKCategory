@@ -15,11 +15,11 @@
 
 @implementation NSObject (TKRandomNumber)
 
-+ (uint64_t)getRandomNumber:(uint64_t)from to:(uint64_t)to {
-    return [NSObject getRandomNumber:from to:to isContainFrom:YES isContainFromTo:YES];
++ (uint64_t)getRandomNumberFrom:(uint64_t)from to:(uint64_t)to {
+    return [NSObject getRandomNumberFrom:from to:to isContainFrom:YES isContainFromTo:YES];
 }
 
-+ (uint64_t)getRandomNumber:(uint64_t)from to:(uint64_t)to isContainFrom:(BOOL)isContainFrom isContainFromTo:(BOOL)isContainFromTo {
++ (uint64_t)getRandomNumberFrom:(uint64_t)from to:(uint64_t)to isContainFrom:(BOOL)isContainFrom isContainFromTo:(BOOL)isContainFromTo {
     if (from > to) return -1;
     
     uint64_t base = isContainFrom ? from : (from + 1);
