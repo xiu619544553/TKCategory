@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
+/// 获取坐标、宽、高等数据的快捷方式
 @interface UIView (TKFrame)
 
 @property (nonatomic) CGFloat left;
