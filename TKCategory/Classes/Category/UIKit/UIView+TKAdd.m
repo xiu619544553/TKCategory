@@ -111,3 +111,33 @@
     self.frame = frame;
 }
 @end
+
+
+@implementation UIView (TKDrawCorner)
+
+/// 设置View任意角度为圆角
+/// @param corners 设置的角，左上、左下、右上、右下，可以组合
+/// @param cornerRadii 圆角的半径
+- (void)setByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii {
+    UIBezierPath *round = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:cornerRadii];
+    
+    CAShapeLayer *shapeLayer = [[CAShapeLayer alloc]init];
+    shapeLayer.path = round.CGPath;
+    self.layer.mask = shapeLayer;
+}
+
+/// 绘制view的圆角边框, 只是在view上画了一个圆角边框，并不会裁剪view
+/// @param corners 设置的角，左上、左下、右上、右下，可以组合
+/// @param cornerRadii 圆角的半径
+/// @param borderColor 边框颜色
+- (void)setByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii borderColor:(UIColor*)borderColor {
+    UIBezierPath *round = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:cornerRadii];
+    
+    CAShapeLayer *shapeLayer = [[CAShapeLayer alloc] init];
+    shapeLayer.path = round.CGPath;
+    shapeLayer.strokeColor = borderColor.CGColor;
+    shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    [self.layer addSublayer:shapeLayer];
+}
+
+@end
