@@ -42,13 +42,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 设置View任意角度为圆角
 /// @param corners 设置的角，左上、左下、右上、右下，可以组合
 /// @param cornerRadii 圆角的半径
-- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii;
+- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadius:(CGFloat)cornerRadius;
 
 /// 绘制view的圆角边框, 只是在view上画了一个圆角边框，并不会裁剪view
 /// @param corners 设置的角，左上、左下、右上、右下，可以组合
 /// @param cornerRadii 圆角的半径
 /// @param borderColor 边框颜色
-- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii borderColor:(UIColor*)borderColor;
+- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadius:(CGFloat)cornerRadius borderColor:(UIColor*)borderColor;
 
 @end
 
