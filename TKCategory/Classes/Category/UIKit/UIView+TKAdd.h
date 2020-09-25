@@ -35,6 +35,7 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 
+/// 绘制圆角
 @interface UIView (TKDrawCorner)
 
 /// 设置View任意角度为圆角
@@ -49,5 +50,22 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)setByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii borderColor:(UIColor*)borderColor;
 
 @end
+
+
+/// 添加阴影
+@interface UIView (TKShadow)
+
+/// 添加阴影
+/// @param shadowRadius 阴影的圆角
+/// @param shadowColor 阴影颜色
+/// @param shadowOffset 阴影偏移量
+/// @param shadowOpacity 不透明度
+- (void)addShadowWithShadowRadius:(CGFloat)shadowRadius
+                      shadowColor:(UIColor *)shadowColor
+                     shadowOffset:(CGSize)shadowOffset
+                    shadowOpacity:(CGFloat)shadowOpacity;
+
+@end
+
 
 NS_ASSUME_NONNULL_END

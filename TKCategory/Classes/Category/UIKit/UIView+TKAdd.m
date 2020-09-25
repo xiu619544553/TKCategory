@@ -141,3 +141,23 @@
 }
 
 @end
+
+
+
+@implementation UIView (TKShadow)
+
+- (void)addShadowWithShadowRadius:(CGFloat)shadowRadius
+                      shadowColor:(UIColor *)shadowColor
+                     shadowOffset:(CGSize)shadowOffset
+                    shadowOpacity:(CGFloat)shadowOpacity {
+    UIBezierPath *path = [UIBezierPath bezierPathWithRect:self.bounds];
+    
+    self.layer.cornerRadius = shadowRadius;
+    self.layer.shadowColor = shadowColor.CGColor;
+    self.layer.shadowOffset = shadowOffset;
+    self.layer.shadowRadius = shadowRadius;
+    self.layer.shadowOpacity = shadowOpacity;
+    self.layer.shadowPath = path.CGPath;
+}
+
+@end
