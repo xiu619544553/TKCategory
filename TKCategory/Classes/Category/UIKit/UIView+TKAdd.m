@@ -118,7 +118,7 @@
 /// 设置View任意角度为圆角
 /// @param corners 设置的角，左上、左下、右上、右下，可以组合
 /// @param cornerRadii 圆角的半径
-- (void)setByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii {
+- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii {
     UIBezierPath *round = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:cornerRadii];
     
     CAShapeLayer *shapeLayer = [[CAShapeLayer alloc]init];
@@ -130,7 +130,7 @@
 /// @param corners 设置的角，左上、左下、右上、右下，可以组合
 /// @param cornerRadii 圆角的半径
 /// @param borderColor 边框颜色
-- (void)setByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii borderColor:(UIColor*)borderColor {
+- (void)setCornerByRoundingCorners:(UIRectCorner)corners cornerRadii:(CGSize)cornerRadii borderColor:(UIColor*)borderColor {
     UIBezierPath *round = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:cornerRadii];
     
     CAShapeLayer *shapeLayer = [[CAShapeLayer alloc] init];
