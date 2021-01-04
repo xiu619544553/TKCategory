@@ -29,7 +29,7 @@
     //设置view的左上和右下为圆角
     if ([view respondsToSelector:@selector(setCornerByRoundingCorners:cornerRadii:)]) {
         NSLog(@"响应");
-        [view setCornerByRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(10.f, 10.f)];
+        [view setCornerByRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadius:10.f];
     } else {
         NSLog(@"不响应");
     }
@@ -47,7 +47,7 @@
     // 绘制label边框,左下和右上为圆角
     if ([testLbl respondsToSelector:@selector(setCornerByRoundingCorners:cornerRadii:borderColor:)]) {
         NSLog(@"响应");
-        [testLbl setCornerByRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadii:CGSizeMake(5.f, 10.f) borderColor:UIColor.blackColor];
+        [testLbl setCornerByRoundingCorners:UIRectCornerTopLeft | UIRectCornerBottomRight cornerRadius:5.f borderColor:UIColor.blackColor];
     } else {
         NSLog(@"不响应");
     }

@@ -19,6 +19,7 @@
 		CE3959DB24EA6502008FB5D7 /* NSObject+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3959D424EA6502008FB5D7 /* NSObject+TKAdd.m */; };
 		CE6F597424FE1D2A00005C04 /* UIView+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6F597324FE1D2A00005C04 /* UIView+TKAdd.m */; };
 		CE97121024FF44F300E06A61 /* TKUnicode.m in Sources */ = {isa = PBXBuildFile; fileRef = CE97120F24FF44F300E06A61 /* TKUnicode.m */; };
+		CEA7148A25A2F00C005BC74E /* NSDate+TKAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA7148925A2F00C005BC74E /* NSDate+TKAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,8 @@
 		CE6F597324FE1D2A00005C04 /* UIView+TKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+TKAdd.m"; sourceTree = "<group>"; };
 		CE97120E24FF44F300E06A61 /* TKUnicode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKUnicode.h; sourceTree = "<group>"; };
 		CE97120F24FF44F300E06A61 /* TKUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKUnicode.m; sourceTree = "<group>"; };
+		CEA7148825A2F00C005BC74E /* NSDate+TKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKAdd.h"; sourceTree = "<group>"; };
+		CEA7148925A2F00C005BC74E /* NSDate+TKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				CE3959D424EA6502008FB5D7 /* NSObject+TKAdd.m */,
 				CE3959D524EA6502008FB5D7 /* NSString+TKAdd.h */,
 				CE3959D324EA6502008FB5D7 /* NSString+TKAdd.m */,
+				CEA7148825A2F00C005BC74E /* NSDate+TKAdd.h */,
+				CEA7148925A2F00C005BC74E /* NSDate+TKAdd.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				CE3959D824EA6502008FB5D7 /* UIButton+TKAdd.m in Sources */,
 				CE97121024FF44F300E06A61 /* TKUnicode.m in Sources */,
 				CE3959B724EA6476008FB5D7 /* ViewController.m in Sources */,
+				CEA7148A25A2F00C005BC74E /* NSDate+TKAdd.m in Sources */,
 				CE3959D924EA6502008FB5D7 /* UIColor+TKAdd.m in Sources */,
 				CE3959B124EA6476008FB5D7 /* AppDelegate.m in Sources */,
 				CE3959C224EA6478008FB5D7 /* main.m in Sources */,
