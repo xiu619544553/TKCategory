@@ -11,6 +11,8 @@
 
 #import <objc/runtime.h>
 
+#ifdef DEBUG
+
 @implementation NSString (ZXPUnicode)
 
 - (NSString *)stringByReplaceUnicode {
@@ -103,3 +105,6 @@
     return [[self tk_descriptionWithLocale:locale indent:level] stringByReplaceUnicode];
 }
 @end
+
+
+#endif

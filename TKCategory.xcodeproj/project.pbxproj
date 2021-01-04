@@ -48,6 +48,7 @@
 		CE97120F24FF44F300E06A61 /* TKUnicode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKUnicode.m; sourceTree = "<group>"; };
 		CEA7148825A2F00C005BC74E /* NSDate+TKAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TKAdd.h"; sourceTree = "<group>"; };
 		CEA7148925A2F00C005BC74E /* NSDate+TKAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TKAdd.m"; sourceTree = "<group>"; };
+		CEA7149825A2F3C4005BC74E /* TKHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TKHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +97,7 @@
 		CE3959C824EA6502008FB5D7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				CEA7149825A2F3C4005BC74E /* TKHeader.h */,
 				CE3959C924EA6502008FB5D7 /* Category */,
 			);
 			path = Classes;
