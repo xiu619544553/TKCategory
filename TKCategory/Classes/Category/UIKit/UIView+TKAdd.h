@@ -18,20 +18,20 @@ NS_ASSUME_NONNULL_BEGIN
 /// 获取坐标、宽、高等数据的快捷方式
 @interface UIView (TKFrame)
 
-@property (nonatomic) CGFloat left;
-@property (nonatomic) CGFloat right;
+@property (nonatomic) CGFloat left_tk;
+@property (nonatomic) CGFloat right_tk;
 
-@property (nonatomic) CGFloat top;
-@property (nonatomic) CGFloat bottom;
+@property (nonatomic) CGFloat top_tk;
+@property (nonatomic) CGFloat bottom_tk;
 
-@property (nonatomic) CGFloat width;
-@property (nonatomic) CGFloat height;
+@property (nonatomic) CGFloat width_tk;
+@property (nonatomic) CGFloat height_tk;
 
-@property (nonatomic) CGFloat centerX;
-@property (nonatomic) CGFloat centerY;
+@property (nonatomic) CGFloat centerX_tk;
+@property (nonatomic) CGFloat centerY_tk;
 
-@property (nonatomic) CGPoint origin;
-@property (nonatomic) CGSize  size;
+@property (nonatomic) CGPoint origin_tk;
+@property (nonatomic) CGSize  size_tk;
 
 @end
 
