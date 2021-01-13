@@ -17,6 +17,7 @@
 #import <TKCategory/NSObject+TKAdd.h>
 #import <TKCategory/NSString+TKAdd.h>
 #import <TKCategory/NSDate+TKAdd.h>
+#import <TKCategory/UIImage+TKAdd.h>
 #import <TKCategory/TKUnicode.h>
 
 #else
@@ -27,6 +28,7 @@
 #import "NSObject+TKAdd.h"
 #import "NSString+TKAdd.h"
 #import "NSDate+TKAdd.h"
+#import "UIImage+TKAdd.h"
 #import "TKUnicode.h"
 
 #endif
